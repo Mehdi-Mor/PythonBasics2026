@@ -1,0 +1,3 @@
+The most memorable thing for me was how to switch the Dot into a Comma
+Also I have a comment on the finnish day and time, when converted they become a string, so we no longer
+have datetime type.
