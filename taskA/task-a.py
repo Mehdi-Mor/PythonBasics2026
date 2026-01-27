@@ -64,9 +64,9 @@ def main():
 
     print(f"Number of hours: {int(reservation.split('|')[4])}")
 
-    print(f"Hourly price: {float(reservation.split('|')[5]):.2f}".replace('.', ','))
+    print(f"Hourly price: {float(reservation.split('|')[5]):.2f} €".replace('.', ','))
     
-    print(f"Total price: {(float(reservation.split('|')[5])*int(reservation.split('|')[4])):.2f}".replace('.', ','))
+    print(f"Total price: {(float(reservation.split('|')[5])*int(reservation.split('|')[4])):.2f} €".replace('.', ','))
 
     print(f"Paid: {'Yes' if bool(reservation.split('|')[6]) else 'No'}")
 
